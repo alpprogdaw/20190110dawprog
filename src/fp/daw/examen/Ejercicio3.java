@@ -32,7 +32,30 @@ public class Ejercicio3 {
 	 *       
 	 */  
 	
-	public static ...
+	public static char[] escalera(int peldaños, int orientacion) {
+		char [] vector = new char[peldaños * 2];
+		int asteriscos = 0;
+		
+		if (orientacion == 0) {
+			for(int i=0;i<vector.length;i++) {
+				asteriscos = asteriscos + 2;
+				for (int j=0;j<;j++) {
+					System.out.println("*");
+				}
+			}
+		}
+		if (orientacion == 1) {
+			for (int i=vector.length;i<=0;i--) {
+				for (int j=;j<=0;j--) {
+					
+				}
+			}
+		}
+		
+		return vector;
+		
+		
+	}
 
 	
 	public static void mostrarEscalera(String [] escalera) {
